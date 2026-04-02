@@ -1,12 +1,13 @@
-import { Text, View, StyleSheet } from 'react-native';
-import { multiply } from 'react-native-facehash';
-
-const result = multiply(3, 7);
+import { View, StyleSheet } from 'react-native';
+import { Facehash } from 'react-native-facehash';
 
 export default function App() {
   return (
     <View style={styles.container}>
-      <Text>Result: {result}</Text>
+      <Facehash 
+        name="John"
+        size={100}
+      />
     </View>
   );
 }

@@ -86,7 +86,8 @@
   },
   "peerDependencies": {
     "react": "*",
-    "react-native": "*"
+    "react-native": "*",
+    "react-native-svg": "*"
   },
   "workspaces": [
     "example"
@@ -158,5 +159,8 @@
       "release-it"
     ],
     "version": "0.58.2"
+  },
+  "dependencies": {
+    "react-native-svg": "^15.15.4"
   }
 }
