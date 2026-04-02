@@ -1,6 +1,6 @@
 # react-native-facehash
 
-Deterministic avatar faces from any string for React Native. Based on [facehash](https://github.com/cossistant/facehash) by Cossistant. Powered by `react-native-svg`.
+Deterministic avatar faces from any string for React Native. Based on [facehash](https://github.com/cossistantcom/cossistant) by Cossistant. Powered by `react-native-svg`.
 
 ## Installation
 
@@ -104,7 +104,7 @@ import { DEFAULT_COLORS, DEFAULT_COLORS_LIGHT, DEFAULT_COLORS_DARK } from 'react
 
 ## ⚠️ Notes — Missing features
 
-This is a React Native port of [facehash](https://github.com/cossistant/facehash) and does **not** yet implement the full feature set of the original. The following features are currently **missing or not functional**:
+This is a React Native port of [facehash](https://github.com/cossistantcom/cossistant) and does **not** yet implement the full feature set of the original. The following features are currently **missing or not functional**:
 
 - **`enableBlink`** — The eye blinking animation prop is accepted but has no effect. CSS animations are not available in React Native; this would require a `react-native-reanimated` or `Animated` based implementation.
 - **`interactive` / hover animation** — The original animates the face pose on hover (web only). React Native has no hover state; this has not been implemented.
@@ -122,7 +122,7 @@ This is a React Native port of [facehash](https://github.com/cossistant/facehash
 
 ## License
 
-MIT — Based on [facehash](https://github.com/cossistant/facehash) by [Cossistant](https://cossistant.com)
+MIT — Based on [facehash](hhttps://github.com/cossistantcom/cossistant) by **Cossistant**
 
 ---
 
