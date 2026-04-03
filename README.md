@@ -111,7 +111,6 @@ This is a React Native port of [facehash](https://github.com/cossistantcom/cossi
 - **`pose: "front"` override** — The component always uses `pose: "seed"` (deterministic pose). The `front` pose option from the original is not exposed.
 - **`colorClasses`** — Tailwind class-based coloring is a web-only concept and is not supported.
 - **`gradientOverlayClass`** — The custom gradient overlay class prop has no effect in React Native.
-- **`Avatar`, `AvatarImage`, `AvatarFallback`** — The compound avatar components with image fallback from the original are not included.
 
 
 ## Contributing
