@@ -33,6 +33,7 @@ export const useAvatarContext = () => {
 
 export type AvatarProps = ViewProps & {
   shape?: Shape;
+  size?: number;
   style?: StyleProp<ViewStyle>;
 };
 
@@ -50,6 +51,7 @@ export type AvatarProps = ViewProps & {
 export function Avatar({
   children,
   style,
+  size = 32,
   shape = "circle",
   ...props
 }: AvatarProps) {
@@ -70,7 +72,9 @@ export function Avatar({
         style={[
           styles.avatar,
           {
-            borderRadius: shape === "circle" ? 9999 : 4,
+            width: size,
+            height: size,
+            borderRadius: shape === "circle" ? size / 2 : 4,
           },
           style,
         ]}
