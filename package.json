@@ -38,7 +38,7 @@
     "typecheck": "tsc",
     "lint": "eslint \"**/*.{js,ts,tsx}\"",
     "test": "jest",
-    "release": "release-it --only-version"
+    "release": "changeset publish"
   },
   "keywords": [
     "react-native",
@@ -59,6 +59,7 @@
     "registry": "https://registry.npmjs.org/"
   },
   "devDependencies": {
+    "@changesets/cli": "^2.30.0",
     "@commitlint/config-conventional": "^20.5.0",
     "@eslint/compat": "^2.0.3",
     "@eslint/eslintrc": "^3.3.5",
